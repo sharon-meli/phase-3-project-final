@@ -1,0 +1,119 @@
+@import"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css";
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (orientation: portrait) {
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form{
+  width: 100%;
+  }
+  .table{
+    flex-grow: 2;
+  }
+  .displayTable{
+    flex-grow: 2;
+    padding-left: 20px;
+  }
+}
+ @media (orientation: landscape) {
+  .main{
+    display: flex;
+  }
+  
+  .form{
+  width: 30%;
+  }
+  .table{
+    flex-grow: 2;
+  }
+  .displayTable{
+    flex-grow: 2;
+    padding-left: 20px;
+  }
+ } 
+.delete-button button {
+  background-color: red;
+  border: solid 1px
+}
+.editing{
+  font-weight: bolder;
+  color:azure;
+  cursor: pointer;
+  background-color: blue !important;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+.tabledata {
+  font-weight: bolder;
+}
+.r {
+  color: orange;
+}
+.g{
+  color: green;
+}
+.b {
+  color: blue;
+}
+.appointments tr {
+  vertical-align: middle;
+}
+td > button {
+  border: none;
+  background-color: maroon;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+td > a {
+  background-color: rgb(7, 203, 161);
+  padding: 5px;
+}
+tr:hover {
+  background-color: rgba(0, 0, 0, 0.515);
+  cursor: pointer;
+  color: tomato;
+}

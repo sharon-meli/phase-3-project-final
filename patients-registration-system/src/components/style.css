@@ -1,0 +1,94 @@
+.patientForm{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+.paragraph{
+    font-size: 25px;
+    text-decoration: none;
+}
+.contact{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.form-label{
+    margin-left: 20px;
+  
+    float: left;
+}
+.form{
+    transform: scale(1.0);
+}
+
+.header{
+    text-align: left;
+    padding: 10px;
+}
+.header-wrapper{
+    display: flex;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 150px;
+    border-radius: 20px;
+    display: block;
+    margin-left: 2em;
+    
+  } 
+.nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 20px;
+    display: flex;
+}
+.search{
+    display: flex;
+    align-items: center;
+
+}
+ .search > button{
+    border: none;
+    background-color: rgb(214, 214, 244);
+    border-radius: 5px;
+ } 
+ .search > div{
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+ }
+ .button{
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+
+ }
+ .button >input{
+flex-grow: 2;
+border: none;
+outline: none;
+background-color:transparent;
+}
+ .button >  img{
+    width: 20px !important;
+ }
+ a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: blue;
+    margin: 0.2em 1.5em;
+    font-size: 1.5em;
+    
+
+ }
+ .nav{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+ }
+  
