@@ -1,4 +1,4 @@
-# phase-3-final-project
+# phase-3-project-final
 ***
 ### Author : sharon chepkirui 06/03/2023
 **
